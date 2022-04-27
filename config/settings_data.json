@@ -212,14 +212,14 @@
             "type": "text",
             "settings": {
               "heading": "Contact Us",
-              "subtext": "<p><strong>Fresh Meadows Farm<\/strong><\/p><p>26A Walker Road, Carver, MA, 02330<\/p><p><a href=\"tel:5088667136\"><strong>508-866-7136<\/strong><\/a><\/p><p><\/p><p>About Us<\/p><p>Our commitment at Fresh Meadows Farm is to provide the highest quality fresh organic cranberries to our customers each season. This commitment extends through all aspects of the operation. We take great care in the production, transportation, sorting, and packing to attempt to reach this goal each year and to ensure the full integrity of the organic process.<\/p>"
+              "subtext": "<p><strong>Fresh Meadows Farm<\/strong><\/p><p>26A Walker Road, Carver, MA, 02330<\/p><p><a href=\"tel:5088667136\"><strong>508-866-7136<\/strong><\/a><\/p><p><\/p>"
             }
           },
           "07e034da-566b-403b-aadc-32593a4e985a": {
             "type": "text",
             "settings": {
               "heading": "About Us",
-              "subtext": ""
+              "subtext": "<p>Our commitment at Fresh Meadows Farm is to provide the highest quality fresh organic cranberries to our customers each season. This commitment extends through all aspects of the operation. We take great care in the production, transportation, sorting, and packing to attempt to reach this goal each year and to ensure the full integrity of the organic process.<\/p>"
             }
           }
         },
