@@ -37,6 +37,7 @@
         </ul>
       {%- endif -%}
       <div class="contact__fields">
+
         <div class="field">
           <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
@@ -67,11 +68,15 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="field">
+      {% comment %} <div class="field">
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-      </div>
+      </div> {% endcomment %}
       <div class="field">
+        <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
+        <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
+      </div>
+      {% comment %} <div class="field">
         <textarea
           rows="10"
           id="ContactForm-body"
@@ -80,7 +85,19 @@
           placeholder="{{ 'templates.contact.form.comment' | t }}"
         >
           {{- form.body -}}
-        </textarea>
+        </textarea> {% endcomment %}
+        <div class="field">
+          <select type="text" id="ContactForm-select" class="select__select"  name="contact[select]" >
+{% comment %} <option value="">Please Help Me With </option>           {% endcomment %}
+<option value="question">I Have a Question</option>            
+<option value="order">I'd Like to Place an Order</option>
+<option value="group">A Cooperative Purchasing Group </option>
+<option value="tour">Harvest Tour Information </option>
+<option value="other">Other </option>
+          </select>
+            <label class="field__label" for="ContactForm-select">Please Help Me With:</label>
+        </div>
+
         <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
       </div>
       <div class="contact__button">
