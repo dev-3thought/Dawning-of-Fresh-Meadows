@@ -88,14 +88,15 @@
         </textarea> {% endcomment %}
         <div class="field">
           <select type="text" id="ContactForm-select" class="select__select"  name="contact[select]" >
-<option value=""></option>          
+            {% comment %} Default value replaces placeholder, disabled as an invalid option. {% endcomment %}
+<option value="" selected disabled hidden>Please Help Me With:</option>          
 <option value="question">I Have a Question</option>            
 <option value="order">I'd Like to Place an Order</option>
 <option value="group">A Cooperative Purchasing Group </option>
 <option value="tour">Harvest Tour Information </option>
 <option value="other">Other </option>
           </select>
-            <label class="field__label" for="ContactForm-select">Please Help Me With:</label>
+            {% comment %} <label class="field__label" for="ContactForm-select">Please Help Me With:</label> {% endcomment %}
         </div>
 
         {% comment %} <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label> {% endcomment %}
