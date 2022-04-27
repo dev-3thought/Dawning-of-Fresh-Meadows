@@ -39,7 +39,7 @@
       <div class="contact__fields">
 
         <div class="field">
-          <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
+          <input class="field__input" type="text" id="ContactForm-name" name="contact[name]" placeholder="{{ 'templates.contact.form.name' | t }}">
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
         </div>
         <div class="field field--with-error">
@@ -88,7 +88,7 @@
         </textarea> {% endcomment %}
         <div class="field">
           <select type="text" id="ContactForm-select" class="select__select"  name="contact[select]" >
-{% comment %} <option value="">Please Help Me With </option>           {% endcomment %}
+<option value=""></option>          
 <option value="question">I Have a Question</option>            
 <option value="order">I'd Like to Place an Order</option>
 <option value="group">A Cooperative Purchasing Group </option>
@@ -101,7 +101,7 @@
         <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
       </div>
       <div class="contact__button">
-        <button type="submit" class="button">
+        <button type="submit" class="button" style="margin-left:80px">
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>
