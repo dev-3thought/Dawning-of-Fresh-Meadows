@@ -37,7 +37,7 @@
   .footer__content-top .grid {
     row-gap: 6rem;
     margin-bottom: 0;
-     grid-template-columns: 1fr 0.5fr 0.5fr;
+     grid-template-columns: 2fr 1fr;
   }
 }
 
@@ -461,6 +461,7 @@ noscript .localization-selector.link {
 
 .footer-block-image > img {
   height: auto;
+  width:400px;
 }
 
 .footer-block__details-content .placeholder-svg {
