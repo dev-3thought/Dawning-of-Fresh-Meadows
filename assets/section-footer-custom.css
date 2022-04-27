@@ -461,11 +461,11 @@ noscript .localization-selector.link {
 
 .footer-block-image > img {
   height: auto;
-  width:350px !important;
+  /* width:350px !important; */
 }
 
 .footer-block__details-content .placeholder-svg {
-  max-width: 20rem;
+  max-width: 22rem;
 }
 
 .copyright__content a {
