@@ -226,8 +226,11 @@ html.no-js .no-js-hidden {
     padding: 0 5rem;
   }
 
-  .page-width--narrow {
+  /* .page-width--narrow {
     padding: 0 9rem;
+  } */
+  .page-width--narrow {
+    padding: 0;
   }
 
   .page-width-desktop {
