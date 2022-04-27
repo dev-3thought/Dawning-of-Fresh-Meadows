@@ -98,14 +98,18 @@
           </select>
             {% comment %} <label class="field__label" for="ContactForm-select">Please Help Me With:</label> {% endcomment %}
         </div>
-
+        <div class="contact__button">
+          <button type="submit" class="button" style="margin-left:80px; margin-bottom:20px">
+            {{ 'templates.contact.form.send' | t }}
+          </button>
+        </div>
         {% comment %} <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label> {% endcomment %}
       </div>
-      <div class="contact__button">
+      {% comment %} <div class="contact__button">
         <button type="submit" class="button" style="margin-left:80px; margin-bottom:80px">
           {{ 'templates.contact.form.send' | t }}
         </button>
-      </div>
+      </div> {% endcomment %}
     {%- endform -%}
   </div>
 </div>
