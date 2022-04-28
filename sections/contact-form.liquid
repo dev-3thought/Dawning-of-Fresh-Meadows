@@ -90,22 +90,7 @@
             {% comment %} <label class="field__label" for="ContactForm-select">Please Help Me With:</label> {% endcomment %}
         </div>
         
-        <div class="field">
-          <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
-          <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
-        </div>
-
-         <div class="field">
-        <textarea
-          rows="10"
-          id="ContactForm-body"
-          class="text-area field__input"
-          name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
-        >
-        </textarea> 
-      </div>
-          {{- form.body -}}
+        
         </div>
         {% comment %} </textarea> 
       </div> {% endcomment %}
@@ -114,15 +99,28 @@
             {{ 'templates.contact.form.send' | t }}
           </button>
         </div>
-        {% comment %} <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label> {% endcomment %}
+        
+
+      </div>
       
-      {% comment %} <div class="contact__button">
-        <button type="submit" class="button" style="margin-left:80px; margin-bottom:80px">
-          {{ 'templates.contact.form.send' | t }}
-        </button>
-      </div> {% endcomment %}
+      <div class="field">
+        <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
+        <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
+      </div>
+
+       <div class="field">
+      <textarea
+        rows="10"
+        id="ContactForm-body"
+        class="text-area field__input"
+        name="contact[{{ 'templates.contact.form.comment' | t }}]"
+        placeholder="{{ 'templates.contact.form.comment' | t }}"
+      >
+      </textarea> 
+    </div>
+        {{- form.body -}}
     {%- endform -%}
-  </div>
+  {% comment %} </div> {% endcomment %}
 </div>
 
 {% schema %}

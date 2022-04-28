@@ -1677,13 +1677,13 @@ details[open] > .share-button__fallback {
   z-index: 1;
 }
 
-.select__select {
+/* .select__select {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
   font-size: 1.2rem;
   color: rgba(var(--color-foreground), 0.75);
-}
+} */
 
 .field:hover.field:after,
 .select:hover.select:after,
