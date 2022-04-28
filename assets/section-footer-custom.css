@@ -47,11 +47,11 @@
   text-align:center !important ;
   float:none;
   margin:10px;
-  margin-bottom:200px
+ 
 }
 @media(min-width:750px){
   .custom-liquid-footer-1{
-   /* width:30% !important; */
+    margin-bottom:200px;
    display: inline-block !important;
    text-align:left !important;
    float:left;
@@ -61,14 +61,14 @@
   margin-top:0
 }
 .custom-liquid-footer-2{
-  text-align:center !important ;
+  text-align:left !important ;
   /* width: 100% !important; */
 }
 @media(min-width:750px){
   .custom-liquid-footer-2{
    /* width:30% !important; */
    display:inline;
-   text-align:left !important;
+   /* text-align:left !important; */
   }
 }
 .custom-liquid-footer-2 > h3,.custom-liquid-footer-2 > p{
