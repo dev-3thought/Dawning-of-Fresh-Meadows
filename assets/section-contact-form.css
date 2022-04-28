@@ -34,7 +34,7 @@
   .contact__fields {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns:2, 1fr;
+    grid-template-columns:2fr, 2fr;
 
     grid-column-gap: 2rem;
   }
