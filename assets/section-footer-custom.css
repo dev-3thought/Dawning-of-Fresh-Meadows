@@ -44,7 +44,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .custom-liquid-footer{
-  text-align:center
+  text-align:center !important ;
 }
 @media(min-width:750px){
   .custom-liquid-footer{
