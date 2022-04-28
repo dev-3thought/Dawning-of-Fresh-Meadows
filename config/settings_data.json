@@ -197,7 +197,7 @@
             "type": "custom_liquid",
             "disabled": true,
             "settings": {
-              "custom_liquid": "<div>\n<div class=\"custom-liquid-footer\">\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0616\/3706\/6958\/files\/logo.jpg?v=1651090267&amp;width=400\" alt=\"Fresh Meadows Farm Logo\" loading=\"lazy\" width=\"206\" height=\"172\">\n<\/div>\n\n<div class=\"custom-liquid-footer\">\n<h3 style=\"font-size:20px\">Contact Us<\/h3>\n\n<p><strong>Fresh Meadows Farm<\/strong><\/p><p style=\"margin-top:0\">26A Walker Road, Carver, MA, 02330<\/p><p style=\"margin-top:-15px\"><a href=\"tel:5088667136\"><strong>508-866-7136<\/strong><\/a><\/p><p><\/p>\n<\/div>\n\n<div class=\"custom-liquid-footer\">\n<h3>About Us<\/h3>\n<p>Our commitment at Fresh Meadows Farm is to provide the highest quality fresh organic cranberries to our customers each season. This commitment extends through all aspects of the operation. We take great care in the production, transportation, sorting, and packing to attempt to reach this goal each year and to ensure the full integrity of the organic process.<\/p>\n\n<\/div>\n<\/div>"
+              "custom_liquid": "<div>\n\n<div class=\"\" style=\"padding-right:30px\">\n<img style=\"margin: 10px\"src=\"\/\/cdn.shopify.com\/s\/files\/1\/0616\/3706\/6958\/files\/logo.jpg?v=1651090267&amp;width=400\" alt=\"Fresh Meadows Farm Logo\" loading=\"lazy\" width=\"206\" height=\"172\">\n<\/div>\n\n<div class=\"\">\n<h3 style=\"font-size:20px\">Contact Us<\/h3>\n\n<p><strong>Fresh Meadows Farm<\/strong><\/p><p style=\"margin-top:0\">26A Walker Road, Carver, MA, 02330<\/p><p style=\"margin-top:-15px\"><a href=\"tel:5088667136\"><strong>508-866-7136<\/strong><\/a><\/p><p><\/p>\n<\/div>\n\n<div class=\"\">\n<h3>About Us<\/h3>\n<p>Our commitment at Fresh Meadows Farm is to provide the highest quality fresh organic cranberries to our customers each season. This commitment extends through all aspects of the operation. We take great care in the production, transportation, sorting, and packing to attempt to reach this goal each year and to ensure the full integrity of the organic process.<\/p>\n\n<\/div>\n<\/div>"
             }
           },
           "21788e9d-3891-45ab-be5c-86dd02b632ff": {
@@ -212,7 +212,7 @@
           "c5180805-ecfa-4857-8f24-f4cac5c180db": {
             "type": "custom_liquid",
             "settings": {
-              "custom_liquid": "<div style=\" float:left\">\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0616\/3706\/6958\/files\/logo.jpg?v=1651090267&amp;width=400\" alt=\"Fresh Meadows Farm Logo\" loading=\"lazy\" width=\"206\" height=\"172\">\n<\/div>\n<div>\n<p>\nFresh Meadows Farm\n<\/p>\n<p>\n26A Walker Road, Carver, MA, 02330\n<\/p>\n<p>\n508-866-7136\n<\/p>"
+              "custom_liquid": "<div class=\"custom-liquid-footer-1\" style=\" float:left\">\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0616\/3706\/6958\/files\/logo.jpg?v=1651090267&amp;width=400\" alt=\"Fresh Meadows Farm Logo\" loading=\"lazy\" width=\"206\" height=\"172\">\n<\/div>\n<div class=\"custom-liquid-footer-2\">\n<h3>ContactUs<\/h3>\n<p>\nFresh Meadows Farm\n<\/p>\n<div>\n<p>\n26A Walker Road, Carver, MA, 02330\n<br>\n508-866-7136\n<\/p>\n<\/div>\n<\/div>"
             }
           },
           "289005c3-c2d5-46ed-87ff-2f404626a759": {
