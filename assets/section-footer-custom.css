@@ -57,6 +57,9 @@
    float:left;
   }
 }
+.custom-liquid-footer-1 > img{
+  margin-top:0
+}
 .custom-liquid-footer-2{
   text-align:center !important ;
   /* width: 100% !important; */
@@ -67,6 +70,9 @@
    display:inline;
    text-align:left !important;
   }
+}
+.custom-liquid-footer-2 > h3,.custom-liquid-footer-2 > p{
+  margin-top:0
 }
 .custom-liquid-footer-3{
   text-align:center !important ;
