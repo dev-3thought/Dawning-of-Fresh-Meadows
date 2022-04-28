@@ -43,6 +43,15 @@
 .grid-custom{
   grid-template-columns: 1fr 1fr;
 }
+.custom-liquid-footer{
+  text-align:center
+}
+@media(min-width:750px){
+  .custom-liquid-footer{
+    float:left; margin-right:45px; margin-bottom:240px
+  }
+}
+
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
   padding-top: 3rem;
