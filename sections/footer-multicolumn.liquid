@@ -85,6 +85,8 @@
                   </div>
                 </div>
               {%- endif -%}
+              {%- when 'custom_liquid' -%}
+                {{ block.settings.custom_liquid }}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3>{{ block.settings.title | escape }}</h3>
@@ -126,6 +128,17 @@
 
 {% schema %}
 {
+    {
+        "type": "custom_liquid",
+        "name": "t:sections.featured-product.blocks.custom_liquid.name",
+        "settings": [
+          {
+            "type": "liquid",
+            "id": "custom_liquid",
+            "label": "t:sections.featured-product.blocks.custom_liquid.settings.custom_liquid.label"
+          }
+        ]
+      }
   "name": "Footer Multicolumn",
   "class": "section",
   "tag": "section",
