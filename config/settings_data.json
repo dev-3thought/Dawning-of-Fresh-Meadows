@@ -198,7 +198,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/logo.jpg",
               "image_width": 200,
-              "alignment": "right"
+              "alignment": ""
             }
           },
           "154ce833-4b2e-4471-8d21-245b84701a93": {
