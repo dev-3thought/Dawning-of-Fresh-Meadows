@@ -516,6 +516,7 @@ option {
   letter-spacing: 0.04rem;
   font-weight: normal !important;
   font-family: var(--font-body-family) !important;
+  color: #000 !important;
 }
 
 

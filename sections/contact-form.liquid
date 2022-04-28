@@ -40,7 +40,7 @@
 
         <div class="field">
           <input class="field__input" type="text" id="ContactForm-firstNname" name="contact[firstName]" placeholder="First Name"  aria-required="true">
-          <label class="field__label" for="ContactForm-firstName">First Name</label>
+          <label class="field__label" for="ContactForm-firstName">First Name <span aria-hidden="true">*</span></label>
         </div>
         <div class="field">
           <input class="field__input" type="text" id="ContactForm-lastName" name="contact[lastName]" placeholder="Last Name">
@@ -85,7 +85,7 @@
             name="contact[select]"
             aria-required="true" >
             {% comment %} Default value replaces placeholder, disabled as an invalid option. {% endcomment %}
-<option value="" selected disabled hidden>Please Help Me With:</option>          
+<option value="" selected disabled hidden>Please Help Me With: <span aria-hidden="true">*</span></option>          
 <option value="question">I Have a Question</option>            
 <option value="order">I'd Like to Place an Order</option>
 <option value="group">A Cooperative Purchasing Group </option>
