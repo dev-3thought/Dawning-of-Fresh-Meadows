@@ -108,8 +108,10 @@
             class="text-area field__input"
             name="contact[{{ 'templates.contact.form.comment' | t }}]"
             placeholder="{{ 'templates.contact.form.comment' | t }}"
+            aria-required="true"
           >
           </textarea> 
+          <label class="field__label" for= <label class="field__label" for="contact[{{ 'templates.contact.form.comment' | t }}]">Your Message <span aria-hidden="true">*</span></label>
         </div>
 
         <div class="contact__button">
