@@ -47,6 +47,7 @@
   text-align:center !important ;
   margin-bottom:0;
 margin: auto !important;
+text-align:center !important;
 }
 @media(min-width:750px){
   .custom-liquid-footer{
