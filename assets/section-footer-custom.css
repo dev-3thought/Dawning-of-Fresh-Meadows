@@ -33,13 +33,13 @@
   }
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) { */
   .footer__content-top .grid {
     row-gap: 6rem;
     margin-bottom: 0;
-     grid-template-columns: 1fr 1fr 2fr;
+     grid-template-columns: 1fr 1fr 3fr;
   }
-}
+/* } */
 
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
