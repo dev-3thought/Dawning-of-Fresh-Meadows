@@ -196,7 +196,7 @@
           "59b89acd-4a65-4b95-a3cb-d696f8c72445": {
             "type": "custom_liquid",
             "settings": {
-              "custom_liquid": "<div style=\"margin-top:-15px;\">\n<img class=\"custom-liquid-footer\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0616\/3706\/6958\/files\/logo.jpg?v=1651090267&amp;width=400\" alt=\"Fresh Meadows Farm Logo\" loading=\"lazy\" width=\"206\" height=\"172\">\n<h3 style=\"font-size:18px\">Contact Us<\/h3>\n<div style=\"margin: 2rem>\"\n               <p><strong>Fresh Meadows Farm<\/strong><\/p><p>26A Walker Road, Carver, MA, 02330<\/p><p><a href=\"tel:5088667136\"><strong>508-866-7136<\/strong><\/a><\/p><p><\/p>\n<\/div>\n                  <\/div>"
+              "custom_liquid": "<div style=\"margin-top:-15px;\">\n<img class=\"custom-liquid-footer\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0616\/3706\/6958\/files\/logo.jpg?v=1651090267&amp;width=400\" alt=\"Fresh Meadows Farm Logo\" loading=\"lazy\" width=\"206\" height=\"172\">\n<h3 style=\"font-size:20px\">Contact Us<\/h3>\n<div style=\"margin: 2rem>\"\n               <p><strong>Fresh Meadows Farm<\/strong><\/p><p style=\"margin-top:0\">26A Walker Road, Carver, MA, 02330<\/p><p style=\"margin-top:-15px\"><a href=\"tel:5088667136\"><strong>508-866-7136<\/strong><\/a><\/p><p><\/p>\n<\/div>\n                  <\/div>"
             }
           },
           "07e034da-566b-403b-aadc-32593a4e985a": {
