@@ -39,6 +39,9 @@
     grid-column-gap: 2rem;
   }
 }
+.field-bottom-wrap{
+  margin:2rem;
+}
 
 .grecaptcha-badge {
   visibility: hidden;

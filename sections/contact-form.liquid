@@ -95,29 +95,30 @@
         </div>
         
         </div>
-        {% comment %} </textarea> 
-      </div> {% endcomment %}
+        <div class="field-bottom-wrap">
+        <div class="field">
+          <textarea
+            rows="10"
+            id="ContactForm-body"
+            class="text-area field__input"
+            name="contact[{{ 'templates.contact.form.comment' | t }}]"
+            placeholder="{{ 'templates.contact.form.comment' | t }}"
+          >
+          </textarea> 
+        </div>
+
         <div class="contact__button">
           <button type="submit" class="button">
             {{ 'templates.contact.form.send' | t }}
           </button>
         </div>
-        
+      </div>
 
       </div>
 
       
 
-       <div class="field">
-      <textarea
-        rows="10"
-        id="ContactForm-body"
-        class="text-area field__input"
-        name="contact[{{ 'templates.contact.form.comment' | t }}]"
-        placeholder="{{ 'templates.contact.form.comment' | t }}"
-      >
-      </textarea> 
-    </div>
+       
         {{- form.body -}}
     {%- endform -%}
   {% comment %} </div> {% endcomment %}
