@@ -51,7 +51,7 @@ text-align:center !important;
 }
 @media(min-width:750px){
   .custom-liquid-footer{
-    float:left; margin-right:45px; margin-bottom:360px;margin-top:-20px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
