@@ -103,9 +103,11 @@
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
         >
-          {{- form.body -}}
         </textarea> 
       </div>
+          {{- form.body -}}
+        {% comment %} </textarea> 
+      </div> {% endcomment %}
         <div class="contact__button">
           <button type="submit" class="button">
             {{ 'templates.contact.form.send' | t }}
