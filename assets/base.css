@@ -515,6 +515,7 @@ option {
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0.04rem;
   font-weight: normal !important;
+  font-family: var(--font-body-family) !important;
 }
 
 
@@ -1641,6 +1642,9 @@ details[open] > .share-button__fallback {
   min-width: calc(7rem + (var(--inputs-border-width) * 2));
   position: relative;
   border: 0;
+}
+.select__select, option{
+  
 }
 
 .field:before,
