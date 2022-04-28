@@ -89,7 +89,10 @@
           </select>
             {% comment %} <label class="field__label" for="ContactForm-select">Please Help Me With:</label> {% endcomment %}
         </div>
-        
+        <div class="field">
+          <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
+          <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
+        </div>
         
         </div>
         {% comment %} </textarea> 
@@ -102,11 +105,8 @@
         
 
       </div>
+
       
-      <div class="field">
-        <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
-        <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
-      </div>
 
        <div class="field">
       <textarea
