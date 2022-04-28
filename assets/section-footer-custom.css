@@ -46,6 +46,7 @@
 .custom-liquid-footer-1{
   text-align:center !important ;
   float:none;
+  margin:10px;
 }
 @media(min-width:750px){
   .custom-liquid-footer-1{
