@@ -510,6 +510,7 @@ blockquote {
 .field__input,
 .form__label,
 .select__select,
+.textarea-label,
 option {
   font-size: 1.6rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
