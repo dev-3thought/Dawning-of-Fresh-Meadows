@@ -89,13 +89,13 @@
           </select>
             {% comment %} <label class="field__label" for="ContactForm-select">Please Help Me With:</label> {% endcomment %}
         </div>
-
+        
         <div class="field">
           <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
           <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
         </div>
 
-         {% comment %} <div class="field">
+         <div class="field">
         <textarea
           rows="10"
           id="ContactForm-body"
@@ -104,7 +104,7 @@
           placeholder="{{ 'templates.contact.form.comment' | t }}"
         >
           {{- form.body -}}
-        </textarea>  {% endcomment %}
+        </textarea> 
 
         <div class="contact__button">
           <button type="submit" class="button">
