@@ -201,13 +201,6 @@
               "alignment": ""
             }
           },
-          "154ce833-4b2e-4471-8d21-245b84701a93": {
-            "type": "text",
-            "settings": {
-              "heading": "",
-              "subtext": ""
-            }
-          },
           "72af76de-1c4b-4c76-b139-9600970b3010": {
             "type": "text",
             "settings": {
@@ -225,7 +218,6 @@
         },
         "block_order": [
           "d28c91f1-e430-4e55-b7a7-63e554fc3ff7",
-          "154ce833-4b2e-4471-8d21-245b84701a93",
           "72af76de-1c4b-4c76-b139-9600970b3010",
           "07e034da-566b-403b-aadc-32593a4e985a"
         ],
