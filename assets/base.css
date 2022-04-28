@@ -1624,7 +1624,7 @@ details[open] > .share-button__fallback {
 
 /* component-form */
 .field__input,
-.select__select,
+/* .select__select, */
 .customer .field input,
 .customer select {
   -webkit-appearance: none;
