@@ -62,7 +62,7 @@
 @media(min-width:750px){
   .custom-liquid-footer-2{
    width:30% !important;
-   display: inline-block !important;
+   display:inline;
    text-align:left !important;
   }
 }
