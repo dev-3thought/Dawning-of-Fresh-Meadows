@@ -39,8 +39,12 @@
       <div class="contact__fields">
 
         <div class="field">
-          <input class="field__input" type="text" id="ContactForm-name" name="contact[name]" placeholder="{{ 'templates.contact.form.name' | t }}">
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <input class="field__input" type="text" id="ContactForm-firstNname" name="contact[firstName]" placeholder="First Name">
+          <label class="field__label" for="ContactForm-firstName">First Name</label>
+        </div>
+        <div class="field">
+          <input class="field__input" type="text" id="ContactForm-lastName" name="contact[lastName]" placeholder="Last Name">
+          <label class="field__label" for="ContactForm-lastName">Last Name</label>
         </div>
         <div class="field field--with-error">
           <input
@@ -68,24 +72,11 @@
           {%- endif -%}
         </div>
       </div>
-      {% comment %} <div class="field">
+       <div class="field">
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-      </div> {% endcomment %}
-      <div class="field">
-        <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
-        <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
-      </div>
-      {% comment %} <div class="field">
-        <textarea
-          rows="10"
-          id="ContactForm-body"
-          class="text-area field__input"
-          name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
-        >
-          {{- form.body -}}
-        </textarea> {% endcomment %}
+      </div> 
+      
         <div class="field">
           <select type="text" id="ContactForm-select" class="select__select"  name="contact[select]" >
             {% comment %} Default value replaces placeholder, disabled as an invalid option. {% endcomment %}
@@ -98,6 +89,23 @@
           </select>
             {% comment %} <label class="field__label" for="ContactForm-select">Please Help Me With:</label> {% endcomment %}
         </div>
+        
+        <div class="field">
+          <input type="text" id="ContactForm-zipcode" class="field__input" name="contact[zipcode]" pattern="[0-9\-]*"  placeholder="Zip Code">
+          <label class="field__label" for="ContactForm-zipcode">Shipping Zip Code</label>
+        </div>
+
+         <div class="field">
+        <textarea
+          rows="10"
+          id="ContactForm-body"
+          class="text-area field__input"
+          name="contact[{{ 'templates.contact.form.comment' | t }}]"
+          placeholder="{{ 'templates.contact.form.comment' | t }}"
+        >
+          {{- form.body -}}
+        </textarea> 
+
         <div class="contact__button">
           <button type="submit" class="button">
             {{ 'templates.contact.form.send' | t }}
