@@ -39,7 +39,7 @@
       <div class="contact__fields">
 
         <div class="field">
-          <input class="field__input" type="text" id="ContactForm-firstNname" name="contact[firstName]" placeholder="First Name">
+          <input class="field__input" type="text" id="ContactForm-firstNname" name="contact[firstName]" placeholder="First Name"  aria-required="true">
           <label class="field__label" for="ContactForm-firstName">First Name</label>
         </div>
         <div class="field">
@@ -78,7 +78,12 @@
       </div> 
       
         <div class="field">
-          <select type="text" id="ContactForm-select" class="select__select"  name="contact[select]" >
+          <select
+            type="text" 
+            id="ContactForm-select" 
+            class="select__select" 
+            name="contact[select]"
+            aria-required="true" >
             {% comment %} Default value replaces placeholder, disabled as an invalid option. {% endcomment %}
 <option value="" selected disabled hidden>Please Help Me With:</option>          
 <option value="question">I Have a Question</option>            
